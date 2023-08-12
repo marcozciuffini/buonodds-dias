@@ -1,0 +1,71 @@
+.game {
+  display: flex;
+  grid-gap: 5px;
+  border-top: 1px solid white;
+  height: 34px;
+  align-items: center;
+}
+
+.game__finished {
+  opacity: 0.5;
+}
+
+.game__status {
+  margin: 0 1.5px;
+}
+
+.game__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  margin:  5px;
+}
+
+.game__team {
+  color: lightgray;
+  flex: 2;
+  min-width: 100px;
+  padding: 6px 2px;
+  font-family: Arial;
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.game__winning-team {
+  font-weight: bold;
+  color: white;
+}
+
+.game__home-team {}
+
+.game__away-team {}
+
+
+.game__x {
+  padding: 0;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: Arial;
+  color: white;
+}
+
+.game__buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 34px;
+}
+
+.game__result {
+  display: flex;
+  color: white;
+  font-size: 10px;
+  font-family: Arial;
+  width: 20%;
+}

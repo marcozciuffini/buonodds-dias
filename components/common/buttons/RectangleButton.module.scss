@@ -1,0 +1,31 @@
+.rectangle-button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  min-width: 77px;
+  border: 1px solid yellow;
+  border-radius: 2px;
+  margin: 5px;
+  flex: 1;
+}
+
+.rectangle-button__text {
+  font-size: 10px;
+  color: white;
+}
+
+.rectangle-button__button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2px 5px;
+  border: 0;
+}
+
+.rectangle-button--background {
+  background-color: #403F45;
+}
